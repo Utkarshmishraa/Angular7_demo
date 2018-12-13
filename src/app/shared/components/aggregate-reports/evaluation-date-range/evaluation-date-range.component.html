@@ -1,0 +1,44 @@
+<mat-card id="student">
+    <mat-card-title class="evaluation-title">
+      Evaluation Date Range:
+    </mat-card-title>
+    <mat-card-content fxLayout="row" fxLayoutWrap>
+      <div fxFlex="50" fxLayoutAlign="start" class="checkbox-item">
+        <mat-radio-group>
+          <mat-radio-button [disableRipple]="true" class="radio-button delivered" value="Delivered" checked>Delivered</mat-radio-button>
+          <mat-radio-button [disableRipple]="true" class="radio-button completed" value="Completed">Completed</mat-radio-button>
+        </mat-radio-group>
+      </div>
+  
+      <div fxFlex="50" fxLayoutAlign="end">
+        <div fxFlex="45">
+          <div fxLayout="row" fxLayoutAlign="end">
+            <div fxFlex="50">
+              <mat-form-field>
+                  <input matInput [matDatepicker]="fromDatePicker" placeholder="Start Date" [formControl]="date">
+              </mat-form-field>
+            </div>
+            <div fxFlex="50" class="calender-icon">
+              <mat-datepicker-toggle matSuffix [for]="fromDatePicker"></mat-datepicker-toggle>
+              <mat-datepicker #fromDatePicker></mat-datepicker>
+            </div>
+          </div>
+        </div>
+        <hr style="margin-bottom: 1rem;
+        margin-top: 0rem;">
+        <div fxFlex="45">
+          <div fxLayout="row" fxLayoutAlign="end">
+            <div fxFlex="50">
+                <mat-form-field>
+                    <input matInput [matDatepicker]="endDatePicker" placeholder="End Date" [formControl]="date">
+                </mat-form-field>
+            </div>
+            <div fxFlex="50"  class="calender-icon">
+              <mat-datepicker-toggle matSuffix [for]="endDatePicker"></mat-datepicker-toggle>
+              <mat-datepicker #endDatePicker></mat-datepicker>
+            </div>
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>

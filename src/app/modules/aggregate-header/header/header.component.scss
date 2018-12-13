@@ -1,0 +1,42 @@
+.headline{	
+    width: 485px;	
+    font-weight: 500;
+    color: rgba(0,0,0,0.87);	
+    font-family: Roboto;	
+    font-size: 34px;	
+    letter-spacing: 0.25px;	
+    line-height: 45px;
+    margin: 20px 0 0;
+}
+
+.course-tabs {	
+    height: 49px;	
+    width: 100%;
+    padding: 30px 0px;
+}
+
+.tab-button , .mat-tab-label-content, .mat-tab-label .mat-ripple .mat-tab-label-active{	
+    height: 16px;	
+    color:rgba(0,0,0,0.6);
+    font-family: Roboto;	
+    font-size: 14px;	
+    font-weight: 500;	
+    letter-spacing: 1.25px;	
+    line-height: 16px;	
+    text-align: center;
+    
+    .tab-button:active, .mat-tab-label-content:active { 
+        color: #2C702A;
+    }
+    .mat-tab-label {
+        margin-right: 1rem;
+        box-sizing: content-box !important;
+        padding-right: 20px !important;
+    }
+    .mat-tab-header, .mat-tab-nav-bar {
+        border-bottom : none !important;
+    }
+}
+
+
+

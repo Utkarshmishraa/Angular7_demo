@@ -1,0 +1,11 @@
+<div>
+      <div  fxLayout="row">
+            <h4 class="headline">Aggregate Reports</h4>
+      </div>
+      <div  fxLayout="row">
+            <mat-tab-group  mat-align-tabs="left" class="course-tabs" (selectedTabChange)="loadComponent($event)"
+                  (event.keyup)="loadComponent($event)">
+                  <mat-tab class="tab-button" *ngFor="let label of evaluations; let index= i" label="{{label}}"></mat-tab>
+            </mat-tab-group>
+      </div>
+</div>

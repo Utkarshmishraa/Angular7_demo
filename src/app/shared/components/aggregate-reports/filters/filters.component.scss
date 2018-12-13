@@ -1,0 +1,38 @@
+#student-filter {
+    height: 160px;	
+    width: 683px;
+    margin-top: 20px; 
+    .filter-button {
+        height: 32px;	
+        width: 113px;		
+        background-color: #dfdfdf;
+        .filter-text {
+            height: 20px;	
+            width: 89px;	
+            color: rgba(0, 0, 0, 0.5);
+            font-family: Roboto;	
+            font-size: 14px;	
+            letter-spacing: 0.25px;	
+            line-height: 20px;	
+            text-align: center;
+            vertical-align: super;
+        }
+    }
+    .mat-card-actions {
+        margin-left: 0px;
+    }
+    .search-box {
+        height: 56.74px;	
+        width: 329px;	
+        opacity: 0.08;
+    }
+    .filter-title {
+        
+        width: 161px;	
+        color: #00548B;	
+        font-family: Roboto;	
+        font-size: 16px;	
+        letter-spacing: 0.15px;	
+        line-height: 24px;
+    }
+}

@@ -1,0 +1,67 @@
+#student {
+    width: 683px;
+    height: 72px;
+    mat-card {
+        padding: 20px 0px;
+    }
+    
+    .evaluation-title {
+        width: 233px;
+        color: #00548B;
+        font-family: Roboto;
+        font-size: 16px;
+        letter-spacing: 0.15px;
+        line-height: 24px;
+    }
+    .checkbox-item {
+        padding-top: 10px;
+    }
+    .end-date {
+        padding-left: 10px;
+	}
+	
+    .radio-button {	
+        height: 24px;	
+        width: 50%;
+        color: rgba(0,0,0,0.7);	
+        font-family: Roboto;	
+        font-size: 14px;	
+        letter-spacing: 0.25px;	
+        line-height: 20px ;
+        
+    }
+    .delivered , .completed{	
+        height: 24px;	
+        color: rgba(0,0,0,0.7);	font-family: Roboto;	
+        font-size: 14px;	
+        letter-spacing: 0.25px;	
+        line-height: 20px;
+    }
+    
+    ::ng-deep .mat-form-field-underline {
+        display: none;
+    }
+	
+	.calender-icon {
+		padding-left: 5px;
+	}
+    .caption {
+        width: 94px;
+        color: #2C702A;
+        font-family: Roboto;
+        font-size: 12px;
+        letter-spacing: 0.4px;
+        line-height: 16px;
+    }
+    .mat-input-element {
+        border: none;
+		background: inherit;
+		height: 16px;	
+		width: 102px;	
+		color: rgba(0,0,0,0.87);	
+		font-family: Roboto;	
+		font-size: 16px;	
+		letter-spacing: 0.15px;	
+		line-height: 24px;
+    }
+}
