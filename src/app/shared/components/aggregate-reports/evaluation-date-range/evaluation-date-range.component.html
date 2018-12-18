@@ -1,5 +1,5 @@
-<mat-card id="student">
-    <mat-card-title class="evaluation-title">
+<mat-card id="student"  tab-index="0">
+    <mat-card-title class="evaluation-title" tab-index="0" aria-label="Evaluation Date Range">
       Evaluation Date Range:
     </mat-card-title>
     <mat-card-content fxLayout="row" fxLayoutWrap>
@@ -15,10 +15,10 @@
           <div fxLayout="row" fxLayoutAlign="end">
             <div fxFlex="50">
               <mat-form-field>
-                  <input matInput [matDatepicker]="fromDatePicker" placeholder="Start Date" [formControl]="date">
+                  <input tab-index="0" aria-label="Start Date" matInput [matDatepicker]="fromDatePicker" placeholder="Start Date" [formControl]="date">
               </mat-form-field>
             </div>
-            <div fxFlex="50" class="calender-icon">
+            <div fxFlex="50" class="calender-icon" >
               <mat-datepicker-toggle matSuffix [for]="fromDatePicker"></mat-datepicker-toggle>
               <mat-datepicker #fromDatePicker></mat-datepicker>
             </div>
@@ -30,7 +30,7 @@
           <div fxLayout="row" fxLayoutAlign="end">
             <div fxFlex="50">
                 <mat-form-field>
-                    <input matInput [matDatepicker]="endDatePicker" placeholder="End Date" [formControl]="date">
+                    <input matInput tab-index="0" aria-label="Start Date" [matDatepicker]="endDatePicker" placeholder="End Date" [formControl]="date">
                 </mat-form-field>
             </div>
             <div fxFlex="50"  class="calender-icon">
